@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.2,
-          "width": 1.4
+          "height": 2.7,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -524,9 +524,9 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "../Production_documents/",
+      "plot": "",
       "specctra_dsn": "",
-      "step": "../3Dmodel/TTLtoCANforTOF.step",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -537,7 +537,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "..\\BOM\\TTLtoCANforTOF.csv",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -611,26 +611,14 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "描述",
-          "name": "Description",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "位号"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -673,7 +661,7 @@
         "uuid": "84f9f735-8214-450e-9552-095b33bcce4c"
       }
     ],
-    "used_designators": "U1-6,#PWR1-34,#PWR40,L1,R1-9,J1-6,C1-22,Y1,SW1,D1-3,F1",
+    "used_designators": "U1-6,L1,#PWR1-34,J1-5,R1-9,C1-22,Y1,SW1,D1-3,F1",
     "variants": []
   },
   "sheets": [
