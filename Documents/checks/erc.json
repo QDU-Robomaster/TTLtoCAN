@@ -1,0 +1,112 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-03T21:58:32",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.5",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/84f9f735-8214-450e-9552-095b33bcce4c",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR01 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.2794,
+                                "y": 0.3175
+                            },
+                            "uuid": "5491f8d7-7be5-4248-80fb-37854da9206a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR035 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.4953,
+                                "y": 1.6129
+                            },
+                            "uuid": "fb1b84a3-95b9-4c8e-bc69-1d9122d240f6"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR02 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 0.6223
+                            },
+                            "uuid": "4d0a63c4-06ac-428d-bb68-a676a220e79a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR04 引脚 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 0.3683
+                            },
+                            "uuid": "075942c0-6597-438a-99cb-f3d007655637"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "在 'C:\\Users\\Lenovo\\Documents\\GitHub\\Dzero-l\\TTLtoCAN/aaaa.kicad_sym' 中找不到符号库 'aaaa'",
+                    "items": [
+                        {
+                            "description": "符号 U6 [TCAN334]",
+                            "pos": {
+                                "x": 1.7272,
+                                "y": 1.0795
+                            },
+                            "uuid": "5534f25a-4712-4b9c-8761-fc1162146f92"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        }
+    ],
+    "source": "TTLtoCANforTOF.kicad_sch"
+}

@@ -1,0 +1,633 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-03T21:58:29",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.5",
+    "schematic_parity": [
+        {
+            "description": "焊盘网络 (+24V) 与原理图 (VCC_IN) 指定的网络不匹配",
+            "items": [
+                {
+                    "description": "F.Cu 上 Q2 的焊盘 2 [+24V]",
+                    "pos": {
+                        "x": 178.65,
+                        "y": 67.95
+                    },
+                    "uuid": "f24930de-7eb6-42d0-bdc7-84e87fdb58c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "焊盘网络 (VCC_IN) 与原理图 (+24V) 指定的网络不匹配",
+            "items": [
+                {
+                    "description": "F.Cu 上 Q2 的焊盘 3 [VCC_IN]",
+                    "pos": {
+                        "x": 180.525,
+                        "y": 67.0
+                    },
+                    "uuid": "74884408-0b3a-43cf-93e1-6f718d12e5de"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "焊盘网络 (+24V) 与原理图 (Net-(D3-A)) 指定的网络不匹配",
+            "items": [
+                {
+                    "description": "F.Cu 上 R9 的焊盘 1 [+24V]",
+                    "pos": {
+                        "x": 174.05,
+                        "y": 70.3
+                    },
+                    "uuid": "afea2ca2-2bb7-45ea-b1c3-b29f7382c55b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "焊盘网络 (Net-(D3-A)) 与原理图 (+24V) 指定的网络不匹配",
+            "items": [
+                {
+                    "description": "F.Cu 上 R9 的焊盘 2 [Net-(D3-A)]",
+                    "pos": {
+                        "x": 174.05,
+                        "y": 68.65
+                    },
+                    "uuid": "f1efa000-ed49-4a52-b312-796c26af7413"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "未找到原理图中引脚 18 对应的焊盘",
+            "items": [
+                {
+                    "description": "封装 U3",
+                    "pos": {
+                        "x": 172.275,
+                        "y": 71.675
+                    },
+                    "uuid": "ce9dc277-c1e8-4cd2-b0e5-dd53a2ec4c88"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "未找到原理图中引脚 29 对应的焊盘",
+            "items": [
+                {
+                    "description": "封装 U3",
+                    "pos": {
+                        "x": 172.275,
+                        "y": 71.675
+                    },
+                    "uuid": "ce9dc277-c1e8-4cd2-b0e5-dd53a2ec4c88"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "未找到原理图中引脚 45 对应的焊盘",
+            "items": [
+                {
+                    "description": "封装 U3",
+                    "pos": {
+                        "x": 172.275,
+                        "y": 71.675
+                    },
+                    "uuid": "ce9dc277-c1e8-4cd2-b0e5-dd53a2ec4c88"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "封装 C22",
+                    "pos": {
+                        "x": 173.425,
+                        "y": 75.75
+                    },
+                    "uuid": "6920a171-14d6-4a2d-a400-8c929078246d"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        }
+    ],
+    "source": "TTLtoCANforTOF.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "短路了两个不同网络的项目 (网络  和 GND)",
+            "items": [
+                {
+                    "description": "B.Cu 上 Y1 的焊盘 4 [<no net>]",
+                    "pos": {
+                        "x": 172.825,
+                        "y": 64.4125
+                    },
+                    "uuid": "86252034-e7ac-4d20-8e16-a09e61a1a495"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 0.5000 mm",
+                    "pos": {
+                        "x": 172.825,
+                        "y": 64.4125
+                    },
+                    "uuid": "f3c848ec-972b-40a8-a6ce-e55ea86e1a7a"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 GND 和 )",
+            "items": [
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 2.4042 mm",
+                    "pos": {
+                        "x": 173.325,
+                        "y": 64.4125
+                    },
+                    "uuid": "6f7d2a77-a31b-4945-ba59-1fccc5534b69"
+                },
+                {
+                    "description": "B.Cu 上 Y1 的焊盘 4 [<no net>]",
+                    "pos": {
+                        "x": 172.825,
+                        "y": 64.4125
+                    },
+                    "uuid": "86252034-e7ac-4d20-8e16-a09e61a1a495"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 GND 和 )",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 172.992229,
+                        "y": 65.188003
+                    },
+                    "uuid": "07acb5f2-5eaf-4f0a-8ec7-5c12bf9c58c4"
+                },
+                {
+                    "description": "B.Cu 上 Y1 的焊盘 4 [<no net>]",
+                    "pos": {
+                        "x": 172.825,
+                        "y": 64.4125
+                    },
+                    "uuid": "86252034-e7ac-4d20-8e16-a09e61a1a495"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "孔间距违规 (<电路板配置> 中的 \"孔\" 约束 间距 0.2500 mm; 实际 0.0255 mm)",
+            "items": [
+                {
+                    "description": "B.Cu 上 Y1 的焊盘 4 [<no net>]",
+                    "pos": {
+                        "x": 172.825,
+                        "y": 64.4125
+                    },
+                    "uuid": "86252034-e7ac-4d20-8e16-a09e61a1a495"
+                },
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 172.992229,
+                        "y": 65.188003
+                    },
+                    "uuid": "07acb5f2-5eaf-4f0a-8ec7-5c12bf9c58c4"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 172.992229,
+                        "y": 65.188003
+                    },
+                    "uuid": "07acb5f2-5eaf-4f0a-8ec7-5c12bf9c58c4"
+                },
+                {
+                    "description": "B.Cu 上 Y1 的焊盘 4 [<no net>]",
+                    "pos": {
+                        "x": 172.825,
+                        "y": 64.4125
+                    },
+                    "uuid": "86252034-e7ac-4d20-8e16-a09e61a1a495"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 0.5000 mm",
+                    "pos": {
+                        "x": 172.825,
+                        "y": 64.4125
+                    },
+                    "uuid": "f3c848ec-972b-40a8-a6ce-e55ea86e1a7a"
+                },
+                {
+                    "description": "B.Cu 上 Y1 的焊盘 4 [<no net>]",
+                    "pos": {
+                        "x": 172.825,
+                        "y": 64.4125
+                    },
+                    "uuid": "86252034-e7ac-4d20-8e16-a09e61a1a495"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 2.4042 mm",
+                    "pos": {
+                        "x": 173.325,
+                        "y": 64.4125
+                    },
+                    "uuid": "6f7d2a77-a31b-4945-ba59-1fccc5534b69"
+                },
+                {
+                    "description": "B.Cu 上 Y1 的焊盘 4 [<no net>]",
+                    "pos": {
+                        "x": 172.825,
+                        "y": 64.4125
+                    },
+                    "uuid": "86252034-e7ac-4d20-8e16-a09e61a1a495"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "封装 'LQFP-48_7x7mm_P0.5mm' 与库 'Package_QFP' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 U3",
+                    "pos": {
+                        "x": 172.275,
+                        "y": 71.675
+                    },
+                    "uuid": "ce9dc277-c1e8-4cd2-b0e5-dd53a2ec4c88"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "R9 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 173.5275,
+                        "y": 69.712258
+                    },
+                    "uuid": "10680be4-f0d3-4efa-a98d-6b03f5d972c3"
+                },
+                {
+                    "description": "R9 的参考字段",
+                    "pos": {
+                        "x": 174.05,
+                        "y": 69.475
+                    },
+                    "uuid": "aaeae4f1-0533-48fa-a0fd-3b005833406a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "R8 的参考字段",
+                    "pos": {
+                        "x": 173.2,
+                        "y": 67.175
+                    },
+                    "uuid": "b7f9ccc6-e3e0-4b87-9e41-b02cb39cf72f"
+                },
+                {
+                    "description": "R8 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 172.962742,
+                        "y": 67.6975
+                    },
+                    "uuid": "d98f8f01-d3b0-42eb-8cf3-7e5febfcc3cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "R9 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 174.5725,
+                        "y": 69.712258
+                    },
+                    "uuid": "25cfde16-051c-45eb-be47-f4edb44a51ed"
+                },
+                {
+                    "description": "R9 的参考字段",
+                    "pos": {
+                        "x": 174.05,
+                        "y": 69.475
+                    },
+                    "uuid": "aaeae4f1-0533-48fa-a0fd-3b005833406a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "R8 的参考字段",
+                    "pos": {
+                        "x": 173.2,
+                        "y": 67.175
+                    },
+                    "uuid": "b7f9ccc6-e3e0-4b87-9e41-b02cb39cf72f"
+                },
+                {
+                    "description": "R8 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 172.962742,
+                        "y": 66.6525
+                    },
+                    "uuid": "d9aac3a6-abc9-41b6-ad00-548559f9a8b8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "R9 的参考字段",
+                    "pos": {
+                        "x": 174.05,
+                        "y": 69.475
+                    },
+                    "uuid": "aaeae4f1-0533-48fa-a0fd-3b005833406a"
+                },
+                {
+                    "description": "F.Cu 上 R9 的焊盘 1 [+24V]",
+                    "pos": {
+                        "x": 174.05,
+                        "y": 70.3
+                    },
+                    "uuid": "afea2ca2-2bb7-45ea-b1c3-b29f7382c55b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "R9 的参考字段",
+                    "pos": {
+                        "x": 174.05,
+                        "y": 69.475
+                    },
+                    "uuid": "aaeae4f1-0533-48fa-a0fd-3b005833406a"
+                },
+                {
+                    "description": "F.Cu 上 R9 的焊盘 2 [Net-(D3-A)]",
+                    "pos": {
+                        "x": 174.05,
+                        "y": 68.65
+                    },
+                    "uuid": "f1efa000-ed49-4a52-b312-796c26af7413"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "R8 的参考字段",
+                    "pos": {
+                        "x": 173.2,
+                        "y": 67.175
+                    },
+                    "uuid": "b7f9ccc6-e3e0-4b87-9e41-b02cb39cf72f"
+                },
+                {
+                    "description": "F.Cu 上 R8 的焊盘 2 [Net-(D3-A)]",
+                    "pos": {
+                        "x": 174.025,
+                        "y": 67.175
+                    },
+                    "uuid": "b9fc3ec8-0966-40fe-abc1-ce3fd9f66d1f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Q2 的参考字段",
+                    "pos": {
+                        "x": 179.5875,
+                        "y": 67.0
+                    },
+                    "uuid": "1a4f679a-728a-4ae1-9d9a-c10145311113"
+                },
+                {
+                    "description": "F.Cu 上 Q2 的焊盘 3 [VCC_IN]",
+                    "pos": {
+                        "x": 180.525,
+                        "y": 67.0
+                    },
+                    "uuid": "74884408-0b3a-43cf-93e1-6f718d12e5de"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Q2 的参考字段",
+                    "pos": {
+                        "x": 179.5875,
+                        "y": 67.0
+                    },
+                    "uuid": "1a4f679a-728a-4ae1-9d9a-c10145311113"
+                },
+                {
+                    "description": "F.Cu 上 Q2 的焊盘 2 [+24V]",
+                    "pos": {
+                        "x": 178.65,
+                        "y": 67.95
+                    },
+                    "uuid": "f24930de-7eb6-42d0-bdc7-84e87fdb58c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Q2 的参考字段",
+                    "pos": {
+                        "x": 179.5875,
+                        "y": 67.0
+                    },
+                    "uuid": "1a4f679a-728a-4ae1-9d9a-c10145311113"
+                },
+                {
+                    "description": "F.Cu 上 Q2 的焊盘 1 [Net-(D3-A)]",
+                    "pos": {
+                        "x": 178.65,
+                        "y": 66.05
+                    },
+                    "uuid": "91c06738-3a92-4cda-81ba-5ce59bee6171"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "R8 的参考字段",
+                    "pos": {
+                        "x": 173.2,
+                        "y": 67.175
+                    },
+                    "uuid": "b7f9ccc6-e3e0-4b87-9e41-b02cb39cf72f"
+                },
+                {
+                    "description": "F.Cu 上 R8 的焊盘 1 [GND]",
+                    "pos": {
+                        "x": 172.375,
+                        "y": 67.175
+                    },
+                    "uuid": "d8559119-6ffc-4e80-b5d5-034709e9b11d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J4 的封装文本 (-),",
+                    "pos": {
+                        "x": 180.475,
+                        "y": 76.975
+                    },
+                    "uuid": "7a53e218-c0f6-4ef7-8946-53a8694bcca9"
+                },
+                {
+                    "description": "J4 的PTH 焊盘 1 [GND]",
+                    "pos": {
+                        "x": 180.475,
+                        "y": 76.975
+                    },
+                    "uuid": "c3705b5d-a909-4242-aa11-b332d7cdcaff"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J4 的封装文本 (+),",
+                    "pos": {
+                        "x": 180.475,
+                        "y": 71.9
+                    },
+                    "uuid": "d9364858-ef68-4c53-acaf-4a8436179640"
+                },
+                {
+                    "description": "J4 的PTH 焊盘 2 [VCC_IN]",
+                    "pos": {
+                        "x": 180.475,
+                        "y": 71.975
+                    },
+                    "uuid": "8df8091d-0d57-4cf4-9356-8337be880afd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}
