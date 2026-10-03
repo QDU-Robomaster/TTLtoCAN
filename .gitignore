@@ -20,6 +20,7 @@ _autosave-*
 *-save.kicad_pcb
 fp-info-cache
 ~*.lck
+*.lck
 \#auto_saved_files#
 
 # Netlist files (exported from Eeschema)
@@ -33,11 +34,29 @@ fp-info-cache
 *.xml
 *.csv
 
+# Formal manufacturing CSV files are versioned
+!/Production_documents/**/*.csv
+!/BOM/**/*.csv
+
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip
 
 # Local git-based history (KiCad 9.0+)
-.history
+**/.history/
+
+# Local project folders left by older layouts
+/TTLtoCANforTOF/
 
 # Local project settings
 *.kicad_prl
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+.vscode/
+.idea/
+
+# Formal netlists are versioned
+!/Production_documents/**/*.net
