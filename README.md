@@ -6,12 +6,17 @@ TTLtoCANforTOF
 
 
 ## PCB预览
+
+以下为 2026-10-04 根据当前 PCB 文件重新生成的正反面预览。部分器件未配置三维模型，实际装配以封装和 BOM 为准。
+
 正面：
 
 ![PCB 正面](Documents/images/pcb-top.png)
+
 背面：
 
 ![PCB 背面](Documents/images/pcb-bottom.png)
+
 ## 主要参数
 PCB 尺寸  36.00 × 20.05 mm，圆角矩形 
 层数 / 板厚  2 层 / 1.6 mm 

@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\Lenovo\\Documents\\GitHub\\Dzero-l\\TTLtoCAN\\TTLtoCANforTOF.kicad_sch")
-		(date "2026-10-03T21:54:06")
+		(date "2026-10-04T17:42:14")
 		(tool "Eeschema 10.0.5")
 		(sheet
 			(number "1")
@@ -1135,6 +1135,126 @@
 			)
 		)
 		(comp
+			(ref "D1")
+			(value "LED")
+			(footprint "LED_SMD:LED_0603_1608Metric")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "LED_SMD:LED_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "TTLtoCANforTOF")
+			)
+			(property
+				(name "Sheetfile")
+				(value "TTLtoCANforTOF.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "60327a9d-a1da-4f76-b449-4a2ea088f8cc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D2")
+			(value "LED")
+			(footprint "LED_SMD:LED_0603_1608Metric")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "LED_SMD:LED_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "TTLtoCANforTOF")
+			)
+			(property
+				(name "Sheetfile")
+				(value "TTLtoCANforTOF.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3ffc9756-3076-4849-983d-1a11f7efc638")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "D3")
 			(value "BZT52-C12")
 			(footprint "Diode_SMD:D_SOD-123")
@@ -1191,11 +1311,11 @@
 		(comp
 			(ref "J2")
 			(value "CAN")
-			(footprint "Connector_JST:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal")
+			(footprint "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical")
 			(description "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			(fields
 				(field
-					(name "Footprint") "Connector_JST:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal")
+					(name "Footprint") "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -1248,11 +1368,11 @@
 		(comp
 			(ref "J3")
 			(value "TOF")
-			(footprint "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal")
+			(footprint "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical")
 			(description "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			(fields
 				(field
-					(name "Footprint") "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal")
+					(name "Footprint") "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -2019,23 +2139,23 @@
 			)
 		)
 		(comp
-			(ref "SW1")
-			(value "SW_SPST")
-			(footprint "Button_Switch_SMD:SW_SPST_B3U-1000P")
-			(description "Single Pole Single Throw (SPST) switch")
+			(ref "R10")
+			(value "1kΩ")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "Resistor, small symbol")
 			(fields
 				(field
-					(name "Footprint") "Button_Switch_SMD:SW_SPST_B3U-1000P")
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "Single Pole Single Throw (SPST) switch")
+					(name "Description") "Resistor, small symbol")
 			)
 			(libsource
-				(lib "Switch")
-				(part "SW_SPST")
-				(description "Single Pole Single Throw (SPST) switch")
+				(lib "Device")
+				(part "R_Small")
+				(description "Resistor, small symbol")
 			)
 			(property
 				(name "Sheetname")
@@ -2047,13 +2167,17 @@
 			)
 			(property
 				(name "ki_keywords")
-				(value "switch lever")
+				(value "R resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
 			)
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "a4ab2093-74a5-45b0-a514-0539c80c6462")
+			(tstamps "6a307d5d-a880-4a90-b5aa-1b32a28a2938")
 			(units
 				(unit
 					(name "A")
@@ -2063,6 +2187,162 @@
 						)
 						(pin
 							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R11")
+			(value "1kΩ")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(description "Resistor, small symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, small symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_Small")
+				(description "Resistor, small symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "TTLtoCANforTOF")
+			)
+			(property
+				(name "Sheetfile")
+				(value "TTLtoCANforTOF.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c8fb4aa0-2408-4569-b858-d1115bd2a234")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP1")
+			(value "RST")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "TTLtoCANforTOF")
+			)
+			(property
+				(name "Sheetfile")
+				(value "TTLtoCANforTOF.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6382c468-223e-4130-996d-1d4f85dbadaf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP2")
+			(value "GND")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "TTLtoCANforTOF")
+			)
+			(property
+				(name "Sheetfile")
+				(value "TTLtoCANforTOF.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cd425c5e-6107-4cd0-8eb4-0f7ec4ed1060")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
 						)
 					)
 				)
@@ -2557,6 +2837,36 @@
 			)
 		)
 		(libpart
+			(lib "Connector")
+			(part "TestPoint")
+			(description "test point")
+			(footprints
+				(fp "Pin*")
+				(fp "Test*")
+			)
+			(fields
+				(field
+					(name "Reference") "TP")
+				(field
+					(name "Value") "TestPoint")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
 			(lib "Connector_Generic_MountingPin")
 			(part "Conn_01x02_MountingPin")
 			(description "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -2740,6 +3050,44 @@
 				)
 				(field
 					(name "Description") "Zener diode")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "LED")
+			(description "Light emitting diode")
+			(footprints
+				(fp "LED*")
+				(fp "LED_SMD:*")
+				(fp "LED_THT:*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "LED")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
 			)
 			(pins
 				(pin
@@ -3190,37 +3538,6 @@
 			)
 		)
 		(libpart
-			(lib "Switch")
-			(part "SW_SPST")
-			(description "Single Pole Single Throw (SPST) switch")
-			(fields
-				(field
-					(name "Reference") "SW")
-				(field
-					(name "Value") "SW_SPST")
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Single Pole Single Throw (SPST) switch")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "A")
-					(type "passive")
-				)
-				(pin
-					(num "2")
-					(name "B")
-					(type "passive")
-				)
-			)
-		)
-		(libpart
 			(lib "Transistor_FET")
 			(part "Q_PMOS_GSD")
 			(description "P-MOSFET transistor, gate/source/drain")
@@ -3347,10 +3664,6 @@
 			(uri "${KICAD10_SYMBOL_DIR}/Regulator_Switching.kicad_sym")
 		)
 		(library
-			(logical "Switch")
-			(uri "${KICAD10_SYMBOL_DIR}/Switch.kicad_sym")
-		)
-		(library
 			(logical "Transistor_FET")
 			(uri "${KICAD10_SYMBOL_DIR}/Transistor_FET.kicad_sym")
 		)
@@ -3397,6 +3710,18 @@
 			(node
 				(ref "C21")
 				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D2")
+				(pin "2")
+				(pinfunction "A_2")
 				(pintype "passive")
 			)
 			(node
@@ -3474,8 +3799,8 @@
 			)
 			(node
 				(ref "Q2")
-				(pin "3")
-				(pinfunction "D_3")
+				(pin "2")
+				(pinfunction "S_2")
 				(pintype "passive")
 			)
 			(node
@@ -3485,7 +3810,7 @@
 			)
 			(node
 				(ref "R9")
-				(pin "2")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
@@ -3501,8 +3826,8 @@
 			(class "Default")
 			(node
 				(ref "J2")
-				(pin "2")
-				(pinfunction "Pin_2_2")
+				(pin "1")
+				(pinfunction "Pin_1_1")
 				(pintype "passive")
 			)
 			(node
@@ -3518,8 +3843,8 @@
 			(class "Default")
 			(node
 				(ref "J2")
-				(pin "1")
-				(pinfunction "Pin_1_1")
+				(pin "2")
+				(pinfunction "Pin_2_2")
 				(pintype "passive")
 			)
 			(node
@@ -3565,6 +3890,22 @@
 		)
 		(net
 			(code "7")
+			(name "/LED")
+			(class "Default")
+			(node
+				(ref "R11")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "38")
+				(pinfunction "PD0_38")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "8")
 			(name "/NRST")
 			(class "Default")
 			(node
@@ -3578,9 +3919,9 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "SW1")
+				(ref "TP1")
 				(pin "1")
-				(pinfunction "A_1")
+				(pinfunction "1_1")
 				(pintype "passive")
 			)
 			(node
@@ -3591,7 +3932,7 @@
 			)
 		)
 		(net
-			(code "8")
+			(code "9")
 			(name "/OSC+")
 			(class "Default")
 			(node
@@ -3613,7 +3954,7 @@
 			)
 		)
 		(net
-			(code "9")
+			(code "10")
 			(name "/OSC-")
 			(class "Default")
 			(node
@@ -3635,7 +3976,7 @@
 			)
 		)
 		(net
-			(code "10")
+			(code "11")
 			(name "/SWCLK")
 			(class "Default")
 			(node
@@ -3657,7 +3998,7 @@
 			)
 		)
 		(net
-			(code "11")
+			(code "12")
 			(name "/SWDIO")
 			(class "Default")
 			(node
@@ -3674,7 +4015,7 @@
 			)
 		)
 		(net
-			(code "12")
+			(code "13")
 			(name "/USART1_RX")
 			(class "Default")
 			(node
@@ -3691,7 +4032,7 @@
 			)
 		)
 		(net
-			(code "13")
+			(code "14")
 			(name "/USART1_TX")
 			(class "Default")
 			(node
@@ -3708,7 +4049,7 @@
 			)
 		)
 		(net
-			(code "14")
+			(code "15")
 			(name "5V")
 			(class "Default")
 			(node
@@ -3766,7 +4107,7 @@
 			)
 		)
 		(net
-			(code "15")
+			(code "16")
 			(name "GND")
 			(class "Default")
 			(node
@@ -3896,6 +4237,11 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "R10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
 				(ref "R2")
 				(pin "2")
 				(pintype "passive")
@@ -3916,9 +4262,9 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "SW1")
-				(pin "2")
-				(pinfunction "B_2")
+				(ref "TP2")
+				(pin "1")
+				(pinfunction "1_1")
 				(pintype "passive")
 			)
 			(node
@@ -3959,7 +4305,7 @@
 			)
 		)
 		(net
-			(code "16")
+			(code "17")
 			(name "Net-(C7-Pad1)")
 			(class "Default")
 			(node
@@ -3979,7 +4325,39 @@
 			)
 		)
 		(net
-			(code "17")
+			(code "18")
+			(name "Net-(D1-K)")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "Net-(D2-K)")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "20")
 			(name "Net-(D3-A)")
 			(class "Default")
 			(node
@@ -4001,12 +4379,12 @@
 			)
 			(node
 				(ref "R9")
-				(pin "1")
+				(pin "2")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "18")
+			(code "21")
 			(name "Net-(U1-BOOT)")
 			(class "Default")
 			(node
@@ -4022,7 +4400,7 @@
 			)
 		)
 		(net
-			(code "19")
+			(code "22")
 			(name "Net-(U1-EN)")
 			(class "Default")
 			(node
@@ -4043,7 +4421,7 @@
 			)
 		)
 		(net
-			(code "20")
+			(code "23")
 			(name "Net-(U1-FB)")
 			(class "Default")
 			(node
@@ -4069,7 +4447,7 @@
 			)
 		)
 		(net
-			(code "21")
+			(code "24")
 			(name "Net-(U1-SW)")
 			(class "Default")
 			(node
@@ -4090,7 +4468,7 @@
 			)
 		)
 		(net
-			(code "22")
+			(code "25")
 			(name "VCC_IN")
 			(class "Default")
 			(node
@@ -4101,13 +4479,13 @@
 			)
 			(node
 				(ref "Q2")
-				(pin "2")
-				(pinfunction "S_2")
+				(pin "3")
+				(pinfunction "D_3")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "23")
+			(code "26")
 			(name "unconnected-(U2-NC-Pad4)")
 			(class "Default")
 			(node
@@ -4118,7 +4496,7 @@
 			)
 		)
 		(net
-			(code "24")
+			(code "27")
 			(name "unconnected-(U3-PA0-Pad11)")
 			(class "Default")
 			(node
@@ -4129,7 +4507,7 @@
 			)
 		)
 		(net
-			(code "25")
+			(code "28")
 			(name "unconnected-(U3-PA1-Pad12)")
 			(class "Default")
 			(node
@@ -4140,7 +4518,7 @@
 			)
 		)
 		(net
-			(code "26")
+			(code "29")
 			(name "unconnected-(U3-PA2-Pad13)")
 			(class "Default")
 			(node
@@ -4151,7 +4529,7 @@
 			)
 		)
 		(net
-			(code "27")
+			(code "30")
 			(name "unconnected-(U3-PA3-Pad14)")
 			(class "Default")
 			(node
@@ -4162,7 +4540,7 @@
 			)
 		)
 		(net
-			(code "28")
+			(code "31")
 			(name "unconnected-(U3-PA4-Pad15)")
 			(class "Default")
 			(node
@@ -4173,7 +4551,7 @@
 			)
 		)
 		(net
-			(code "29")
+			(code "32")
 			(name "unconnected-(U3-PA5-Pad16)")
 			(class "Default")
 			(node
@@ -4184,7 +4562,7 @@
 			)
 		)
 		(net
-			(code "30")
+			(code "33")
 			(name "unconnected-(U3-PA6-Pad17)")
 			(class "Default")
 			(node
@@ -4195,7 +4573,7 @@
 			)
 		)
 		(net
-			(code "31")
+			(code "34")
 			(name "unconnected-(U3-PA7-Pad18)")
 			(class "Default")
 			(node
@@ -4206,7 +4584,7 @@
 			)
 		)
 		(net
-			(code "32")
+			(code "35")
 			(name "unconnected-(U3-PA8-Pad28)")
 			(class "Default")
 			(node
@@ -4217,7 +4595,7 @@
 			)
 		)
 		(net
-			(code "33")
+			(code "36")
 			(name "unconnected-(U3-PA9{slash}UCPD1_DBCC1-Pad29)")
 			(class "Default")
 			(node
@@ -4228,7 +4606,7 @@
 			)
 		)
 		(net
-			(code "34")
+			(code "37")
 			(name "unconnected-(U3-PA10{slash}UCPD1_DBCC2-Pad32)")
 			(class "Default")
 			(node
@@ -4239,7 +4617,7 @@
 			)
 		)
 		(net
-			(code "35")
+			(code "38")
 			(name "unconnected-(U3-PA15-Pad37)")
 			(class "Default")
 			(node
@@ -4250,7 +4628,7 @@
 			)
 		)
 		(net
-			(code "36")
+			(code "39")
 			(name "unconnected-(U3-PB0-Pad19)")
 			(class "Default")
 			(node
@@ -4261,7 +4639,7 @@
 			)
 		)
 		(net
-			(code "37")
+			(code "40")
 			(name "unconnected-(U3-PB1-Pad20)")
 			(class "Default")
 			(node
@@ -4272,7 +4650,7 @@
 			)
 		)
 		(net
-			(code "38")
+			(code "41")
 			(name "unconnected-(U3-PB2-Pad21)")
 			(class "Default")
 			(node
@@ -4283,7 +4661,7 @@
 			)
 		)
 		(net
-			(code "39")
+			(code "42")
 			(name "unconnected-(U3-PB3-Pad42)")
 			(class "Default")
 			(node
@@ -4294,7 +4672,7 @@
 			)
 		)
 		(net
-			(code "40")
+			(code "43")
 			(name "unconnected-(U3-PB4-Pad43)")
 			(class "Default")
 			(node
@@ -4305,7 +4683,7 @@
 			)
 		)
 		(net
-			(code "41")
+			(code "44")
 			(name "unconnected-(U3-PB5-Pad44)")
 			(class "Default")
 			(node
@@ -4316,7 +4694,7 @@
 			)
 		)
 		(net
-			(code "42")
+			(code "45")
 			(name "unconnected-(U3-PB6-Pad45)")
 			(class "Default")
 			(node
@@ -4327,7 +4705,7 @@
 			)
 		)
 		(net
-			(code "43")
+			(code "46")
 			(name "unconnected-(U3-PB7-Pad46)")
 			(class "Default")
 			(node
@@ -4338,7 +4716,7 @@
 			)
 		)
 		(net
-			(code "44")
+			(code "47")
 			(name "unconnected-(U3-PB10-Pad22)")
 			(class "Default")
 			(node
@@ -4349,7 +4727,7 @@
 			)
 		)
 		(net
-			(code "45")
+			(code "48")
 			(name "unconnected-(U3-PB11-Pad23)")
 			(class "Default")
 			(node
@@ -4360,7 +4738,7 @@
 			)
 		)
 		(net
-			(code "46")
+			(code "49")
 			(name "unconnected-(U3-PB12-Pad24)")
 			(class "Default")
 			(node
@@ -4371,7 +4749,7 @@
 			)
 		)
 		(net
-			(code "47")
+			(code "50")
 			(name "unconnected-(U3-PB13-Pad25)")
 			(class "Default")
 			(node
@@ -4382,7 +4760,7 @@
 			)
 		)
 		(net
-			(code "48")
+			(code "51")
 			(name "unconnected-(U3-PB14-Pad26)")
 			(class "Default")
 			(node
@@ -4393,7 +4771,7 @@
 			)
 		)
 		(net
-			(code "49")
+			(code "52")
 			(name "unconnected-(U3-PB15-Pad27)")
 			(class "Default")
 			(node
@@ -4404,7 +4782,7 @@
 			)
 		)
 		(net
-			(code "50")
+			(code "53")
 			(name "unconnected-(U3-PC6-Pad30)")
 			(class "Default")
 			(node
@@ -4415,7 +4793,7 @@
 			)
 		)
 		(net
-			(code "51")
+			(code "54")
 			(name "unconnected-(U3-PC7-Pad31)")
 			(class "Default")
 			(node
@@ -4426,7 +4804,7 @@
 			)
 		)
 		(net
-			(code "52")
+			(code "55")
 			(name "unconnected-(U3-PC13-Pad1)")
 			(class "Default")
 			(node
@@ -4437,7 +4815,7 @@
 			)
 		)
 		(net
-			(code "53")
+			(code "56")
 			(name "unconnected-(U3-PC14-Pad2)")
 			(class "Default")
 			(node
@@ -4448,7 +4826,7 @@
 			)
 		)
 		(net
-			(code "54")
+			(code "57")
 			(name "unconnected-(U3-PC15-Pad3)")
 			(class "Default")
 			(node
@@ -4459,18 +4837,7 @@
 			)
 		)
 		(net
-			(code "55")
-			(name "unconnected-(U3-PD0-Pad38)")
-			(class "Default")
-			(node
-				(ref "U3")
-				(pin "38")
-				(pinfunction "PD0_38")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "56")
+			(code "58")
 			(name "unconnected-(U3-PD1-Pad39)")
 			(class "Default")
 			(node
@@ -4481,7 +4848,7 @@
 			)
 		)
 		(net
-			(code "57")
+			(code "59")
 			(name "unconnected-(U3-PD2-Pad40)")
 			(class "Default")
 			(node
@@ -4492,7 +4859,7 @@
 			)
 		)
 		(net
-			(code "58")
+			(code "60")
 			(name "unconnected-(U3-PD3-Pad41)")
 			(class "Default")
 			(node

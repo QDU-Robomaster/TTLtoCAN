@@ -62,7 +62,7 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.5,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.15,
           "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -524,7 +524,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "Production_documents/Gerber/",
+      "plot": "Production_documents/BIt_number/",
       "specctra_dsn": "",
       "step": "3Dmodel/TTLtoCANforTOF.step",
       "vrml": ""
@@ -623,6 +623,12 @@
           "label": "描述",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -673,7 +679,7 @@
         "uuid": "84f9f735-8214-450e-9552-095b33bcce4c"
       }
     ],
-    "used_designators": "U1-6,#PWR1-34,#PWR39-40,L1,R1-9,J1-6,C1-23,Y1,SW1,D1-3,F1,Q1-2",
+    "used_designators": "U1-6,#PWR1-34,#PWR36-37,#PWR39-40,L1,R1-11,J1-6,C1-23,Y1,SW1,D1-3,F1,Q1-2,TP1-2",
     "variants": []
   },
   "sheets": [
