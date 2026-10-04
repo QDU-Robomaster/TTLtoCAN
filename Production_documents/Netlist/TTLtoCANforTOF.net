@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\Lenovo\\Documents\\GitHub\\Dzero-l\\TTLtoCAN\\TTLtoCANforTOF.kicad_sch")
-		(date "2026-10-04T22:49:21")
+		(date "2026-10-04T23:53:52")
 		(tool "Eeschema 10.0.5")
 		(sheet
 			(number "1")
