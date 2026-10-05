@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\Lenovo\\Documents\\GitHub\\Dzero-l\\TTLtoCAN\\TTLtoCANforTOF.kicad_sch")
-		(date "2026-10-05T16:38:31")
+		(date "2026-10-05T21:53:21")
 		(tool "Eeschema 10.0.5")
 		(sheet
 			(number "1")
@@ -2350,7 +2350,7 @@
 			(libsource
 				(lib "New_Library")
 				(part "TD1469")
-				(description "3A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6")
+				(description "2A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6")
 			)
 			(property
 				(name "Sheetname")
@@ -3387,7 +3387,7 @@
 		)
 		(library
 			(logical "New_Library")
-			(uri "D:\\Project\\Kicad_Segment\\New_Library.kicad_sym")
+			(uri "D:/Project/Kicad_Segment/New_Library.kicad_sym")
 		)
 		(library
 			(logical "Regulator_Linear")
