@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\Lenovo\\Documents\\GitHub\\Dzero-l\\TTLtoCAN\\TTLtoCANforTOF.kicad_sch")
-		(date "2026-10-04T23:53:52")
+		(date "2026-10-05T16:38:31")
 		(tool "Eeschema 10.0.5")
 		(sheet
 			(number "1")
@@ -147,7 +147,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "61bc1a2b-2117-46b5-b3cf-e58d7b484674")
+			(tstamps "c0a54628-b4ca-41c2-9506-b8b27a62683b")
 			(units
 				(unit
 					(name "A")
@@ -217,60 +217,6 @@
 			)
 		)
 		(comp
-			(ref "C4")
-			(value "22uF")
-			(footprint "Capacitor_SMD:C_1210_3225Metric")
-			(description "Unpolarized capacitor, small symbol")
-			(fields
-				(field
-					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Unpolarized capacitor, small symbol")
-			)
-			(libsource
-				(lib "Device")
-				(part "C_Small")
-				(description "Unpolarized capacitor, small symbol")
-			)
-			(property
-				(name "Sheetname")
-				(value "TTLtoCANforTOF")
-			)
-			(property
-				(name "Sheetfile")
-				(value "TTLtoCANforTOF.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "capacitor cap")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "cef7cb80-5e0e-4d7e-b375-60e76525c701")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "C6")
 			(value "22uF")
 			(footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -310,114 +256,6 @@
 				(tstamps "/")
 			)
 			(tstamps "76df6940-b339-4d7c-8e1d-614ff83d10a1")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C7")
-			(value "75pF")
-			(footprint "Capacitor_SMD:C_0603_1608Metric")
-			(description "Unpolarized capacitor, small symbol")
-			(fields
-				(field
-					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Unpolarized capacitor, small symbol")
-			)
-			(libsource
-				(lib "Device")
-				(part "C_Small")
-				(description "Unpolarized capacitor, small symbol")
-			)
-			(property
-				(name "Sheetname")
-				(value "TTLtoCANforTOF")
-			)
-			(property
-				(name "Sheetfile")
-				(value "TTLtoCANforTOF.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "capacitor cap")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "181a864f-6122-4519-8a2d-5bee9f07dd52")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C8")
-			(value "22uF")
-			(footprint "Capacitor_SMD:C_0805_2012Metric")
-			(description "Unpolarized capacitor, small symbol")
-			(fields
-				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Unpolarized capacitor, small symbol")
-			)
-			(libsource
-				(lib "Device")
-				(part "C_Small")
-				(description "Unpolarized capacitor, small symbol")
-			)
-			(property
-				(name "Sheetname")
-				(value "TTLtoCANforTOF")
-			)
-			(property
-				(name "Sheetfile")
-				(value "TTLtoCANforTOF.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "capacitor cap")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "d570bb3d-3380-4df2-9cd9-8ce525cb366a")
 			(units
 				(unit
 					(name "A")
@@ -1547,7 +1385,7 @@
 		)
 		(comp
 			(ref "L1")
-			(value "15uH")
+			(value "22uH")
 			(footprint "Inductor_SMD:L_APV_ANR5020")
 			(description "Inductor, small symbol")
 			(fields
@@ -1654,7 +1492,7 @@
 		)
 		(comp
 			(ref "R1")
-			(value "500kΩ")
+			(value "1MΩ")
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(description "Resistor, small symbol")
 			(fields
@@ -1707,116 +1545,8 @@
 			)
 		)
 		(comp
-			(ref "R2")
-			(value "100kΩ")
-			(footprint "Resistor_SMD:R_0603_1608Metric")
-			(description "Resistor, small symbol")
-			(fields
-				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor, small symbol")
-			)
-			(libsource
-				(lib "Device")
-				(part "R_Small")
-				(description "Resistor, small symbol")
-			)
-			(property
-				(name "Sheetname")
-				(value "TTLtoCANforTOF")
-			)
-			(property
-				(name "Sheetfile")
-				(value "TTLtoCANforTOF.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "64638361-535b-4988-9674-5d6049dcb5ad")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R3")
-			(value "0Ω")
-			(footprint "Resistor_SMD:R_0805_2012Metric")
-			(description "Resistor, small symbol")
-			(fields
-				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor, small symbol")
-			)
-			(libsource
-				(lib "Device")
-				(part "R_Small")
-				(description "Resistor, small symbol")
-			)
-			(property
-				(name "Sheetname")
-				(value "TTLtoCANforTOF")
-			)
-			(property
-				(name "Sheetfile")
-				(value "TTLtoCANforTOF.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "fb020fba-9471-4a1a-8972-8d2a35b98a22")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "R4")
-			(value "100kΩ")
+			(value "43kΩ")
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(description "Resistor, small symbol")
 			(fields
@@ -1870,7 +1600,7 @@
 		)
 		(comp
 			(ref "R5")
-			(value "13.3kΩ")
+			(value "8.2kΩ")
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(description "Resistor, small symbol")
 			(fields
@@ -1907,7 +1637,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "aa19b17d-5349-4965-851c-c6db5654d243")
+			(tstamps "7fd4a0e7-54ba-4106-8fa7-5bf8347e2636")
 			(units
 				(unit
 					(name "A")
@@ -2349,72 +2079,6 @@
 			)
 		)
 		(comp
-			(ref "U1")
-			(value "TPS54202DDC")
-			(footprint "Package_TO_SOT_SMD:SOT-23-6")
-			(datasheet "http://www.ti.com/lit/ds/symlink/tps54202.pdf")
-			(description "2A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6")
-			(fields
-				(field
-					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-6")
-				(field
-					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/tps54202.pdf")
-				(field
-					(name "Description") "2A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6")
-			)
-			(libsource
-				(lib "Regulator_Switching")
-				(part "TPS54202DDC")
-				(description "2A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6")
-			)
-			(property
-				(name "Sheetname")
-				(value "TTLtoCANforTOF")
-			)
-			(property
-				(name "Sheetfile")
-				(value "TTLtoCANforTOF.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "switching buck converter power-supply voltage regulator emi spread spectrum")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "SOT?23*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "9e427783-ea40-4731-a0ad-5c7356c4fc6b")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "5")
-						)
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "6")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "4")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "U2")
 			(value "ME6211C33M5")
 			(footprint "Package_TO_SOT_SMD:SOT-23-5")
@@ -2664,6 +2328,72 @@
 						)
 						(pin
 							(num "27")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U4")
+			(value "TD1469")
+			(footprint "Package_TO_SOT_SMD:SOT-23-6")
+			(datasheet "http://www.ti.com/lit/ds/symlink/tps54202.pdf")
+			(description "2A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-6")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/tps54202.pdf")
+				(field
+					(name "Description") "2A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6")
+			)
+			(libsource
+				(lib "New_Library")
+				(part "TD1469")
+				(description "3A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6")
+			)
+			(property
+				(name "Sheetname")
+				(value "TTLtoCANforTOF")
+			)
+			(property
+				(name "Sheetfile")
+				(value "TTLtoCANforTOF.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switching buck converter power-supply voltage regulator emi spread spectrum")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2ee7b4d2-5305-4a1d-b04e-c6b9628899b0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "3")
 						)
 					)
 				)
@@ -3437,6 +3167,59 @@
 			)
 		)
 		(libpart
+			(lib "New_Library")
+			(part "TD1469")
+			(description "2A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6")
+			(docs "http://www.ti.com/lit/ds/symlink/tps54202.pdf")
+			(footprints
+				(fp "SOT?23*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TD1469")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-6")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/tps54202.pdf")
+				(field
+					(name "Description") "2A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "BS")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "FB")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "VIN")
+					(type "power_in")
+				)
+				(pin
+					(num "6")
+					(name "SW")
+					(type "power_out")
+				)
+			)
+		)
+		(libpart
 			(lib "Regulator_Linear")
 			(part "ME6211C33M5")
 			(description "500mA low dropout linear regulator, shutdown pin, 6.5V max input voltage, 3.3V fixed positive output, SOT-23-5")
@@ -3481,59 +3264,6 @@
 					(num "5")
 					(name "V_{OUT}")
 					(type "power_out")
-				)
-			)
-		)
-		(libpart
-			(lib "Regulator_Switching")
-			(part "TPS54202DDC")
-			(description "2A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6")
-			(docs "http://www.ti.com/lit/ds/symlink/tps54202.pdf")
-			(footprints
-				(fp "SOT?23*")
-			)
-			(fields
-				(field
-					(name "Reference") "U")
-				(field
-					(name "Value") "TPS54202DDC")
-				(field
-					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-6")
-				(field
-					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/tps54202.pdf")
-				(field
-					(name "Description") "2A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "GND")
-					(type "power_in")
-				)
-				(pin
-					(num "2")
-					(name "SW")
-					(type "power_out")
-				)
-				(pin
-					(num "3")
-					(name "VIN")
-					(type "power_in")
-				)
-				(pin
-					(num "4")
-					(name "FB")
-					(type "input")
-				)
-				(pin
-					(num "5")
-					(name "EN")
-					(type "input")
-				)
-				(pin
-					(num "6")
-					(name "BOOT")
-					(type "passive")
 				)
 			)
 		)
@@ -3656,12 +3386,12 @@
 			(uri "${KICAD10_SYMBOL_DIR}/MCU_ST_STM32G0.kicad_sym")
 		)
 		(library
-			(logical "Regulator_Linear")
-			(uri "${KICAD10_SYMBOL_DIR}/Regulator_Linear.kicad_sym")
+			(logical "New_Library")
+			(uri "D:\\Project\\Kicad_Segment\\New_Library.kicad_sym")
 		)
 		(library
-			(logical "Regulator_Switching")
-			(uri "${KICAD10_SYMBOL_DIR}/Regulator_Switching.kicad_sym")
+			(logical "Regulator_Linear")
+			(uri "${KICAD10_SYMBOL_DIR}/Regulator_Linear.kicad_sym")
 		)
 		(library
 			(logical "Transistor_FET")
@@ -3787,11 +3517,6 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "C4")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
 				(ref "D3")
 				(pin "1")
 				(pinfunction "K_1")
@@ -3814,9 +3539,9 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U1")
-				(pin "3")
-				(pinfunction "VIN_3")
+				(ref "U4")
+				(pin "5")
+				(pinfunction "VIN_5")
 				(pintype "power_in")
 			)
 		)
@@ -4068,11 +3793,6 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "C8")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
 				(ref "C9")
 				(pin "1")
 				(pintype "passive")
@@ -4089,7 +3809,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R3")
+				(ref "R4")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -4181,17 +3901,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "C4")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
 				(ref "C6")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C8")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -4242,11 +3952,6 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R2")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
 				(ref "R5")
 				(pin "2")
 				(pintype "passive")
@@ -4268,12 +3973,6 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U1")
-				(pin "1")
-				(pinfunction "GND_1")
-				(pintype "power_in")
-			)
-			(node
 				(ref "U2")
 				(pin "2")
 				(pinfunction "V_{SS}_2")
@@ -4283,6 +3982,12 @@
 				(ref "U3")
 				(pin "7")
 				(pinfunction "VSS_7")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "2")
+				(pinfunction "GND_2")
 				(pintype "power_in")
 			)
 			(node
@@ -4306,26 +4011,6 @@
 		)
 		(net
 			(code "17")
-			(name "Net-(C7-Pad1)")
-			(class "Default")
-			(node
-				(ref "C7")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R3")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R4")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "18")
 			(name "Net-(D1-K)")
 			(class "Default")
 			(node
@@ -4341,7 +4026,7 @@
 			)
 		)
 		(net
-			(code "19")
+			(code "18")
 			(name "Net-(D2-K)")
 			(class "Default")
 			(node
@@ -4357,7 +4042,7 @@
 			)
 		)
 		(net
-			(code "20")
+			(code "19")
 			(name "Net-(D3-A)")
 			(class "Default")
 			(node
@@ -4384,8 +4069,8 @@
 			)
 		)
 		(net
-			(code "21")
-			(name "Net-(U1-BOOT)")
+			(code "20")
+			(name "Net-(U4-BS)")
 			(class "Default")
 			(node
 				(ref "C1")
@@ -4393,15 +4078,15 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U1")
-				(pin "6")
-				(pinfunction "BOOT_6")
+				(ref "U4")
+				(pin "1")
+				(pinfunction "BS_1")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "22")
-			(name "Net-(U1-EN)")
+			(code "21")
+			(name "Net-(U4-EN)")
 			(class "Default")
 			(node
 				(ref "R1")
@@ -4409,26 +4094,16 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R2")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "5")
-				(pinfunction "EN_5")
+				(ref "U4")
+				(pin "4")
+				(pinfunction "EN_4")
 				(pintype "input")
 			)
 		)
 		(net
-			(code "23")
-			(name "Net-(U1-FB)")
+			(code "22")
+			(name "Net-(U4-FB)")
 			(class "Default")
-			(node
-				(ref "C7")
-				(pin "2")
-				(pintype "passive")
-			)
 			(node
 				(ref "R4")
 				(pin "2")
@@ -4440,15 +4115,15 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U1")
-				(pin "4")
-				(pinfunction "FB_4")
+				(ref "U4")
+				(pin "3")
+				(pinfunction "FB_3")
 				(pintype "input")
 			)
 		)
 		(net
-			(code "24")
-			(name "Net-(U1-SW)")
+			(code "23")
+			(name "Net-(U4-SW)")
 			(class "Default")
 			(node
 				(ref "C1")
@@ -4461,14 +4136,14 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U1")
-				(pin "2")
-				(pinfunction "SW_2")
+				(ref "U4")
+				(pin "6")
+				(pinfunction "SW_6")
 				(pintype "power_out")
 			)
 		)
 		(net
-			(code "25")
+			(code "24")
 			(name "VCC_IN")
 			(class "Default")
 			(node
@@ -4485,7 +4160,7 @@
 			)
 		)
 		(net
-			(code "26")
+			(code "25")
 			(name "unconnected-(U2-NC-Pad4)")
 			(class "Default")
 			(node
@@ -4496,7 +4171,7 @@
 			)
 		)
 		(net
-			(code "27")
+			(code "26")
 			(name "unconnected-(U3-PA0-Pad11)")
 			(class "Default")
 			(node
@@ -4507,7 +4182,7 @@
 			)
 		)
 		(net
-			(code "28")
+			(code "27")
 			(name "unconnected-(U3-PA1-Pad12)")
 			(class "Default")
 			(node
@@ -4518,7 +4193,7 @@
 			)
 		)
 		(net
-			(code "29")
+			(code "28")
 			(name "unconnected-(U3-PA2-Pad13)")
 			(class "Default")
 			(node
@@ -4529,7 +4204,7 @@
 			)
 		)
 		(net
-			(code "30")
+			(code "29")
 			(name "unconnected-(U3-PA3-Pad14)")
 			(class "Default")
 			(node
@@ -4540,7 +4215,7 @@
 			)
 		)
 		(net
-			(code "31")
+			(code "30")
 			(name "unconnected-(U3-PA4-Pad15)")
 			(class "Default")
 			(node
@@ -4551,7 +4226,7 @@
 			)
 		)
 		(net
-			(code "32")
+			(code "31")
 			(name "unconnected-(U3-PA5-Pad16)")
 			(class "Default")
 			(node
@@ -4562,7 +4237,7 @@
 			)
 		)
 		(net
-			(code "33")
+			(code "32")
 			(name "unconnected-(U3-PA6-Pad17)")
 			(class "Default")
 			(node
@@ -4573,7 +4248,7 @@
 			)
 		)
 		(net
-			(code "34")
+			(code "33")
 			(name "unconnected-(U3-PA7-Pad18)")
 			(class "Default")
 			(node
@@ -4584,7 +4259,7 @@
 			)
 		)
 		(net
-			(code "35")
+			(code "34")
 			(name "unconnected-(U3-PA8-Pad28)")
 			(class "Default")
 			(node
@@ -4595,7 +4270,7 @@
 			)
 		)
 		(net
-			(code "36")
+			(code "35")
 			(name "unconnected-(U3-PA9{slash}UCPD1_DBCC1-Pad29)")
 			(class "Default")
 			(node
@@ -4606,7 +4281,7 @@
 			)
 		)
 		(net
-			(code "37")
+			(code "36")
 			(name "unconnected-(U3-PA10{slash}UCPD1_DBCC2-Pad32)")
 			(class "Default")
 			(node
@@ -4617,7 +4292,7 @@
 			)
 		)
 		(net
-			(code "38")
+			(code "37")
 			(name "unconnected-(U3-PA15-Pad37)")
 			(class "Default")
 			(node
@@ -4628,7 +4303,7 @@
 			)
 		)
 		(net
-			(code "39")
+			(code "38")
 			(name "unconnected-(U3-PB0-Pad19)")
 			(class "Default")
 			(node
@@ -4639,7 +4314,7 @@
 			)
 		)
 		(net
-			(code "40")
+			(code "39")
 			(name "unconnected-(U3-PB1-Pad20)")
 			(class "Default")
 			(node
@@ -4650,7 +4325,7 @@
 			)
 		)
 		(net
-			(code "41")
+			(code "40")
 			(name "unconnected-(U3-PB2-Pad21)")
 			(class "Default")
 			(node
@@ -4661,7 +4336,7 @@
 			)
 		)
 		(net
-			(code "42")
+			(code "41")
 			(name "unconnected-(U3-PB3-Pad42)")
 			(class "Default")
 			(node
@@ -4672,7 +4347,7 @@
 			)
 		)
 		(net
-			(code "43")
+			(code "42")
 			(name "unconnected-(U3-PB4-Pad43)")
 			(class "Default")
 			(node
@@ -4683,7 +4358,7 @@
 			)
 		)
 		(net
-			(code "44")
+			(code "43")
 			(name "unconnected-(U3-PB5-Pad44)")
 			(class "Default")
 			(node
@@ -4694,7 +4369,7 @@
 			)
 		)
 		(net
-			(code "45")
+			(code "44")
 			(name "unconnected-(U3-PB6-Pad45)")
 			(class "Default")
 			(node
@@ -4705,7 +4380,7 @@
 			)
 		)
 		(net
-			(code "46")
+			(code "45")
 			(name "unconnected-(U3-PB7-Pad46)")
 			(class "Default")
 			(node
@@ -4716,7 +4391,7 @@
 			)
 		)
 		(net
-			(code "47")
+			(code "46")
 			(name "unconnected-(U3-PB10-Pad22)")
 			(class "Default")
 			(node
@@ -4727,7 +4402,7 @@
 			)
 		)
 		(net
-			(code "48")
+			(code "47")
 			(name "unconnected-(U3-PB11-Pad23)")
 			(class "Default")
 			(node
@@ -4738,7 +4413,7 @@
 			)
 		)
 		(net
-			(code "49")
+			(code "48")
 			(name "unconnected-(U3-PB12-Pad24)")
 			(class "Default")
 			(node
@@ -4749,7 +4424,7 @@
 			)
 		)
 		(net
-			(code "50")
+			(code "49")
 			(name "unconnected-(U3-PB13-Pad25)")
 			(class "Default")
 			(node
@@ -4760,7 +4435,7 @@
 			)
 		)
 		(net
-			(code "51")
+			(code "50")
 			(name "unconnected-(U3-PB14-Pad26)")
 			(class "Default")
 			(node
@@ -4771,7 +4446,7 @@
 			)
 		)
 		(net
-			(code "52")
+			(code "51")
 			(name "unconnected-(U3-PB15-Pad27)")
 			(class "Default")
 			(node
@@ -4782,7 +4457,7 @@
 			)
 		)
 		(net
-			(code "53")
+			(code "52")
 			(name "unconnected-(U3-PC6-Pad30)")
 			(class "Default")
 			(node
@@ -4793,7 +4468,7 @@
 			)
 		)
 		(net
-			(code "54")
+			(code "53")
 			(name "unconnected-(U3-PC7-Pad31)")
 			(class "Default")
 			(node
@@ -4804,7 +4479,7 @@
 			)
 		)
 		(net
-			(code "55")
+			(code "54")
 			(name "unconnected-(U3-PC13-Pad1)")
 			(class "Default")
 			(node
@@ -4815,7 +4490,7 @@
 			)
 		)
 		(net
-			(code "56")
+			(code "55")
 			(name "unconnected-(U3-PC14-Pad2)")
 			(class "Default")
 			(node
@@ -4826,7 +4501,7 @@
 			)
 		)
 		(net
-			(code "57")
+			(code "56")
 			(name "unconnected-(U3-PC15-Pad3)")
 			(class "Default")
 			(node
@@ -4837,7 +4512,7 @@
 			)
 		)
 		(net
-			(code "58")
+			(code "57")
 			(name "unconnected-(U3-PD1-Pad39)")
 			(class "Default")
 			(node
@@ -4848,7 +4523,7 @@
 			)
 		)
 		(net
-			(code "59")
+			(code "58")
 			(name "unconnected-(U3-PD2-Pad40)")
 			(class "Default")
 			(node
@@ -4859,7 +4534,7 @@
 			)
 		)
 		(net
-			(code "60")
+			(code "59")
 			(name "unconnected-(U3-PD3-Pad41)")
 			(class "Default")
 			(node
