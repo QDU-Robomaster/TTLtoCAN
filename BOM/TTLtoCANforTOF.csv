@@ -1,28 +1,26 @@
-"编号";"位号";"封装";"数量";"名称";"供应商编号";
-1;"C1, C2, C10, C12, C13, C14, C18, C19, C20, C21";"C_0603_1608Metric";10;"0.1uF";;;
-2;"C3";"C_1210_3225Metric";1;"22uF";;;
-3;"C6, C11";"C_0805_2012Metric";2;"22uF";;;
-4;"C9";"C_0805_2012Metric";1;"10uF";;;
-5;"C15";"C_0603_1608Metric";1;"4.7uF";;;
-6;"C16, C17";"C_0603_1608Metric";2;"22pF";;;
-7;"D1, D2";"LED_0603_1608Metric";2;"LED";;;
-8;"D3";"D_SOD-123";1;"BZT52-C12";;;
-9;"J2";"JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical";1;"CAN";;;
-10;"J3";"JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical";1;"TOF";;;
-11;"J4";"AMASS_XT30U-F_1x02_P5.0mm_Vertical";1;"XT30";;;
-12;"J6";"Molex_CLIK-Mate_502386-0470_1x04-1MP_P1.25mm_Horizontal";1;"SWD";;;
-13;"L1";"L_APV_ANR5020";1;"22uH";;;
-14;"Q2";"SOT-23";1;"Si2309CDS-T1-GE3";;;
-15;"R1";"R_0603_1608Metric";1;"1MΩ";;;
-16;"R4";"R_0603_1608Metric";1;"43kΩ";;;
-17;"R5";"R_0603_1608Metric";1;"8.2kΩ";;;
-18;"R6, R8";"R_0603_1608Metric";2;"10kΩ";;;
-19;"R7, R9";"R_0603_1608Metric";2;"100kΩ";;;
-20;"R10, R11";"R_0603_1608Metric";2;"1kΩ";;;
-21;"TP1";"TestPoint_Pad_D1.0mm";1;"RST";;;
-22;"TP2";"TestPoint_Pad_D1.0mm";1;"GND";;;
-23;"U2";"SOT-23-5";1;"ME6211C33M5";;;
-24;"U3";"LQFP-48_7x7mm_P0.5mm";1;"STM32G0B1CBTx";;;
-25;"U4";"SOT-23-6";1;"TD1469";;;
-26;"U6";"SOIC-8_3.9x4.9mm_P1.27mm";1;"TCAN3413DR";;;
-27;"Y1";"Crystal_SMD_3225-4Pin_3.2x2.5mm";1;"X32258MSB";;;
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Exclude from Simulation,Exclude from Position Files,Footprint,Datasheet
+"C1,C2,C10,C12,C13,C18,C19,C20,C21,C22,C23,C24",12,0.1uF,,,,,${EXCLUDE_FROM_POS_FILES},Capacitor_SMD:C_0603_1608Metric,
+C3,1,4.7uF,,,,,${EXCLUDE_FROM_POS_FILES},Capacitor_SMD:C_0805_2012Metric,
+C4,1,C_Small,,,,,${EXCLUDE_FROM_POS_FILES},Capacitor_SMD:C_0805_2012Metric,
+"C5,C6,C9",3,10uF,,,,,${EXCLUDE_FROM_POS_FILES},Capacitor_SMD:C_0805_2012Metric,
+C11,1,22uF,,,,,${EXCLUDE_FROM_POS_FILES},Capacitor_SMD:C_0805_2012Metric,
+C15,1,4.7uF,,,,,${EXCLUDE_FROM_POS_FILES},Capacitor_SMD:C_0603_1608Metric,
+"C16,C17",2,22pF,,,,,${EXCLUDE_FROM_POS_FILES},Capacitor_SMD:C_0603_1608Metric,
+"D1,D2",2,LED,,,,,${EXCLUDE_FROM_POS_FILES},LED_SMD:LED_0603_1608Metric,
+D3,1,BZT52-C12,,,,,${EXCLUDE_FROM_POS_FILES},Diode_SMD:D_SOD-123,
+D4,1,SS16,,,,,${EXCLUDE_FROM_POS_FILES},Diode_SMD:D_SMA,
+"L1,L3",2,10uH,,,,,${EXCLUDE_FROM_POS_FILES},Inductor_SMD:L_Changjiang_FNR3010S,
+L2,1,15uH,,,,,${EXCLUDE_FROM_POS_FILES},Inductor_SMD:L_Changjiang_FNR4020S,
+Q2,1,Si2309CDS-T1-GE3,,,,,${EXCLUDE_FROM_POS_FILES},Package_TO_SOT_SMD:SOT-23,
+R1,1,1MΩ,,,,,${EXCLUDE_FROM_POS_FILES},Resistor_SMD:R_0603_1608Metric,
+R2,1,R_Small,,,,,${EXCLUDE_FROM_POS_FILES},Resistor_SMD:R_0805_2012Metric,
+R4,1,62kΩ,,,,,${EXCLUDE_FROM_POS_FILES},Resistor_SMD:R_0603_1608Metric,
+R5,1,12kΩ,,,,,${EXCLUDE_FROM_POS_FILES},Resistor_SMD:R_0603_1608Metric,
+"R6,R8",2,10kΩ,,,,,${EXCLUDE_FROM_POS_FILES},Resistor_SMD:R_0603_1608Metric,
+"R7,R9",2,100kΩ,,,,,${EXCLUDE_FROM_POS_FILES},Resistor_SMD:R_0603_1608Metric,
+"R10,R11",2,1kΩ,,,,,${EXCLUDE_FROM_POS_FILES},Resistor_SMD:R_0603_1608Metric,
+U1,1,STM32F103C8Tx,,,,,${EXCLUDE_FROM_POS_FILES},Package_QFP:LQFP-48_7x7mm_P0.5mm,https://www.st.com/resource/en/datasheet/stm32f103c8.pdf
+U2,1,ME6211C33M5,,,,,${EXCLUDE_FROM_POS_FILES},Package_TO_SOT_SMD:SOT-23-5,https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_MICRONE-Nanjing-Micro-One-Elec-ME6211C33R5G_C235316.pdf
+U4,1,TD1466tr,,,,,${EXCLUDE_FROM_POS_FILES},Package_TO_SOT_SMD:SOT-23-6,https://item.szlcsc.com/datasheet/TD1466TR/379545.html?spm=sc.it.pdf.fd___sc.gbn.xh2.zy.n&lcsc_vid=RgBZBVdWQgdWUQUDFlMNVVcHQFBZAgEHQAMNVVcDRFQxVlNfRFlWUl1RQlldUjtW
+U6,1,TCAN3413DR,,,,,${EXCLUDE_FROM_POS_FILES},Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://www.ti.com/lit/ds/symlink/tcan337.pdf
+Y1,1,X32258MSB,,,,,${EXCLUDE_FROM_POS_FILES},Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,
